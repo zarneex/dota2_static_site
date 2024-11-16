@@ -78,6 +78,18 @@
 
 .nav-link {
     color: white;
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
 }
 
 .nav-link:hover {
