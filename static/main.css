@@ -116,3 +116,18 @@ li:target{
     color: lightgoldenrodyellow;
     scroll-margin-top: 50px;
 }
+/* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
+}
