@@ -1,4 +1,48 @@
 
+/* Базовые стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 calc(33% - 40px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
+}
+
 .active1{
      background-color: yellow;
 }
@@ -127,48 +171,4 @@ a{
 li:target{
     color: lightgoldenrodyellow;
     scroll-margin-top: 50px;
-}
-
-/* Базовые стили */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.cards {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.card {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 8px;
-    flex: 1 1 calc(33% - 40px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* Адаптация для мобильных устройств */
-@media (max-width: 768px) {
-    header nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .cards {
-        flex-direction: column;
-    }
-
-    .card {
-        flex: 1 1 100%;
-    }
 }
