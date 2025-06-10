@@ -1,106 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Глоссарий Dota 2 (Герои и Их Способности)</title>
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-        rel="stylesheet" 
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Глоссарий Dota 2 - Герои и Их Способности</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
         crossorigin="anonymous"
     />
-    <link 
-        rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
     <link rel="stylesheet" href="https://zarneex.github.io/dota2_static_site/static/main.css">
 </head>
 <body class="bkcl">
     <div class="container">
-    <nav class="navbar navbar-expand-lg darkgray positionfixed">
-  <button onclick="goBack()" class="darkgray nav-link back1">Назад</button>
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          
-              <li class="nav-item">
-                  <a class="nav-link  " aria-current="page" href="https://zarneex.github.io/dota2_static_site/">Главная</a>
-              </li>
-          
-              <li class="nav-item">
-                  <a class="nav-link  " aria-current="page" href="https://zarneex.github.io/dota2_static_site/zeus">Zeus описание</a>
-              </li>
-          
-              <li class="nav-item">
-                  <a class="nav-link  " aria-current="page" href="https://zarneex.github.io/dota2_static_site/witch_doctor">Witch Doctor описание</a>
-              </li>
-          
-              <li class="nav-item">
-                  <a class="nav-link  " aria-current="page" href="https://zarneex.github.io/dota2_static_site/skywrath_mage">Skywrath Mage описание</a>
-              </li>
-          
-              <li class="nav-item">
-                  <a class="nav-link active1 " aria-current="page" href="https://zarneex.github.io/dota2_static_site/glossary">Глоссарий Dota 2 (Герои и Их Способности)</a>
-              </li>
-          
-              <li class="nav-item">
-                  <a class="nav-link  " aria-current="page" href="https://zarneex.github.io/dota2_static_site/about_me">Сведения об авторе</a>
-              </li>
-          
-        </ul>
-      </div>
+        <header>
+            <nav class="navbar navbar-expand-lg darkgray positionfixed">
+                <button class="darkgray nav-link back1" onclick="window.history.back()">Назад</button>
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="https://zarneex.github.io/dota2_static_site/">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://zarneex.github.io/dota2_static_site/zeus">Zeus описание</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://zarneex.github.io/dota2_static_site/witch_doctor">Witch Doctor описание</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://zarneex.github.io/dota2_static_site/skywrath_mage">Skywrath Mage описание</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active1" aria-current="page" href="https://zarneex.github.io/dota2_static_site/glossary">Глоссарий Dota 2 (Герои и Их Способности)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://zarneex.github.io/dota2_static_site/about_me">Сведения об авторе</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h1>Глоссарий Dota 2: Герои и Их Способности</h1>
+                <article>
+                    <figure>
+                        <img src="https://zarneex.github.io/dota2_static_site/static/logo.jpg" class="scaleimg img-fluid" alt="Логотип игры Dota 2">
+                        <figcaption class="name1"><a href="https://www.dota2.com/home">Официальный сайт игры</a></figcaption>
+                    </figure>
+                    <ul class="name3">
+                        <li id="dota2"><b>Dota 2</b> — многопользовательская командная компьютерная игра в жанре <a href="https://zarneex.github.io/dota2_static_site/glossary#MOBA"><b>MOBA</b></a>, разработанная и изданная корпорацией <b>Valve</b>.</li>
+                        <li id="MOBA"><b>MOBA</b> — Multiplayer Online Battle Arena (Многопользовательская онлайн-боевая арена) жанр компьютерных игр, сочетающий в себе элементы стратегий в реальном времени и компьютерных ролевых игр.</li>
+                        <li id="smskill1"><b>Запутывающий Шар (Arcane Bolt):</b> Магический снаряд, брошенный Skywrath Mage, который наносит урон врагу, зависящий от его запаса маны. Этот проектайл становится ключевым в арсенале героя для точного поражения противников.</li>
+                        <li id="smskill2"><b>Конвокация Пустоты (Concussive Shot):</b> Способность, позволяющая Skywrath Mage вызывать волну удара, замедляющую и повреждающую врагов в зоне поражения. Эффективное средство для контроля над полем битвы и ограничения движения вражеских отрядов.</li>
+                        <li id="smskill3"><b>Пламя Небес (Ancient Seal):</b> Магическое заклинание, которое налагает печать на врага, увеличивая урон от магии и снижая его сопротивление. Эта способность делает Skywrath Mage мощным магическим убийцей, способным справиться с самыми стойкими врагами.</li>
+                        <li id="smultimate"><b>Мистический Зверь (Mystic Flare):</b> Эпическое заклинание, призывающее огненные небеса для нанесения огромного урона в целевой области. "Мистический Зверь" — это разрушительная способность, способная переломить ход боя и заставить врагов поклониться небесам.</li>
+                        <li id="wdskill1"><b>Смертоносный Паралич (Paralyzing Cask):</b> Witch Doctor бросает проклятой вуду-бомбой, отскакивающей между врагами и вызывающей временный паралич. Это позволяет Witch Doctor контролировать течение сражения, оставляя врагов беспомощными перед его силой.</li>
+                        <li id="wdskill2"><b>Вуду-восстановление (Voodoo Restoration):</b> Способность, превращающая Witch Doctor в живой фонтан энергии, исцеляющий союзников вокруг. Этот врачебный жезл делает Witch Doctor неотъемлемым союзником, поддерживая команду в боях.</li>
+                        <li id="wdskill3"><b>Заклинание Смерти (Maledict):</b> Witch Doctor налагает проклятье на врага, усиливая урон от получаемых повреждений. Это коварное заклинание делает Witch Doctor опасным противником, который преследует даже самых выносливых врагов.</li>
+                        <li id="wdultimate"><b>Смертоносный Данс (Death Ward):</b> Witch Doctor вызывает колесо смерти, стреляющее во врагов. "Смертоносный Данс" создает неотвратимую угрозу, разлетаясь смертоносными снарядами и доминируя в битве.</li>
+                        <li id="zskill1"><b>Запятнанный Молнией (Arc Lightning):</b> Зевс высвобождает молнии, ударяя в ближайших врагов. Этот эффективный и мгновенный проектайл является основной атакой Зевса в ранней фазе игры, позволяя ему маневрировать на поле битвы.</li>
+                        <li id="zskill2"><b>Молниеносный Удар (Lightning Bolt):</b> Зевс метит свою цель молнией, нанося урон и раскрывая видимость врагов. "Молниеносный Удар" становится инструментом для точного уничтожения врагов и обеспечения контроля над полем битвы.</li>
+                        <li id="zskill3"><b>Небесный прыжок (Heavenly Jump):</b> Способность Зевса, вызывающая молниеносный разряд, позволяющее ему пересекать пространство со сверхъестественной скоростью. С этой уникальной способностью Зевс становится еще более непредсказуемым и опасным на поле битвы.</li>
+                        <li id="zultimate"><b>Гнев Небес (Wrath of the Thundergod):</b> Эпическая способность, где Зевс призывает гнев небес, нанося урон всем врагам в радиусе действия. "Гнев Небес" — это последнее слово Зевса в битве, привносящее разрушение и смерть врагам.</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
     </div>
-  </nav>
 
-    <h3><b>Глоссарий Dota 2 (Герои и Их Способности)</b></h3>
-    
-<img src="https://zarneex.github.io/dota2_static_site/static/logo.jpg" class="scaleimg" alt="не найдено">
-<figcaption class="name1"><div><a href="https://www.dota2.com/home">(Официальный сайт игры)</a></div></figcaption>
-<div class="name3">
-    <ul>
-        <li id="dota2"><b>Dota 2</b> — многопользовательская командная компьютерная игра в жанре <a href="https://zarneex.github.io/dota2_static_site/glossary#MOBA"><b>MOBA</b></a>, разработанная и изданная корпорацией <b>Valve</b>.</li>
-
-        <li id="MOBA"><b>MOBA</b> — Multiplayer Online Battle Arena (Многопользовательская онлайн-боевая арена) жанр компьютерных игр, сочетающий в себе элементы стратегий в реальном времени и компьютерных ролевых игр</li>
-
-        <li id="smskill1"><b>Запутывающий Шар (Arcane Bolt):</b> Магический снаряд, брошенный Skywrath Mage, который наносит урон врагу, зависящий от его запаса маны. Этот проектайл становится ключевым в арсенале героя для точного поражения противников.</li>
-
-        <li id="smskill2"><b>Конвокация Пустоты (Concussive Shot):</b> Способность, позволяющая Skywrath Mage вызывать волну удара, замедляющую и повреждающую врагов в зоне поражения. Эффективное средство для контроля над полем битвы и ограничения движения вражеских отрядов.</li>
-
-        <li id="smskill3"><b>Пламя Небес (Ancient Seal):</b> Магическое заклинание, которое налагает печать на врага, увеличивая урон от магии и снижая его сопротивление. Эта способность делает Skywrath Mage мощным магическим убийцей, способным справиться с самыми стойкими врагами.</li>
-
-        <li id="smultimate"><b>Мистический Зверь (Mystic Flare):</b> Эпическое заклинание, призывающее огненные небеса для нанесения огромного урона в целевой области. "Мистический Зверь" — это разрушительная способность, способная переломить ход боя и заставить врагов поклониться небесам.</li>
-
-        <li id="wdskill1"><b>Смертоносный Паралич (Paralyzing Cask):</b> Witch Doctor бросает проклятой вуду-бомбой, отскакивающей между врагами и вызывающей временный паралич. Это позволяет Witch Doctor контролировать течение сражения, оставляя врагов беспомощными перед его силой.</li>
-
-        <li id="wdskill2"><b>Вуду-восстановление (Voodoo Restoration):</b> Способность, превращающая Witch Doctor в живой фонтан энергии, исцеляющий союзников вокруг. Этот врачебный жезл делает Witch Doctor неотъемлемым союзником, поддерживая команду в боях.</li>
-
-        <li id="wdskill3"><b>Заклинание Смерти (Maledict):</b> Witch Doctor налагает проклятье на врага, усиливая урон от получаемых повреждений. Это коварное заклинание делает Witch Doctor опасным противником, который преследует даже самых выносливых врагов.</li>
-
-        <li id="wdultimate"><b>Смертоносный Данс (Death Ward):</b> Witch Doctor вызывает колесо смерти, стреляющее во врагов. "Смертоносный Данс" создает неотвратимую угрозу, разлетаясь смертоносными снарядами и доминируя в битве.</li>
-
-        <li id="zskill1"><b>Запятнанный Молнией (Arc Lightning):</b> Зевс высвобождает молнии, ударяя в ближайших врагов. Этот эффективный и мгновенный проектайл является основной атакой Зевса в ранней фазе игры, позволяя ему маневрировать на поле битвы.</li>
-
-        <li id="zskill2"><b>Молниеносный Удар (Lightning Bolt):</b> Зевс метит свою цель молнией, нанося урон и раскрывая видимость врагов. "Молниеносный Удар" становится инструментом для точного уничтожения врагов и обеспечения контроля над полем битвы.</li>
-
-        <li id="zskill3"><b>Небесный прыжок (Heavenly jump):</b> Способность Зевса, вызывающая молниеносный разряд, позволяющее ему пересекать пространство со сверхъестественной скоростью. С этой уникальной способностью Зевс становится еще более непредсказуемым и опасным на поле битвы..</li>
-
-        <li id="zultimate"><b>Гнев Небес (Wrath of the Thundergod):</b> Эпическая способность, где Зевс призывает гнев небес, нанося урон всем врагам в радиусе действия. "Гнев Небес" — это последнее слово Зевса в битве, привносящее разрушение и смерть врагам.</li>
-    </ul>
-</div>
-
-    </div>
-    <script 
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous">
-    </script>
-    <script>
-    function goBack() {
-    window.history.back();
-    }
     </script>
 </body>
 </html>
